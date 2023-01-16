@@ -34,8 +34,8 @@ for(lifeEvent of lifeEvents){
 let randomNumber = Math.floor(Math.random() * 10);
 
 if (randomNumber !== 5){
-    console.log("randomNumber !== 5")
+    console.log(randomNumber + "randomNumber !== 5")
 } else{
-    console.log(" 5===5");
+    console.log(randomNumber + " 5===5");
 }
 
